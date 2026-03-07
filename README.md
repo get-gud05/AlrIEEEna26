@@ -8,6 +8,10 @@ Class labels:
 - **0** → Normal
 - **1** → Faulty
 
+# LightGBM
+
+LightGBM (Light Gradient Boosting Machine) is a gradient boosting framework that builds decision trees sequentially to improve prediction accuracy. Each new tree focuses on correcting the errors made by the previous trees. Compared to traditional boosting algorithms, LightGBM is optimized for speed and efficiency and can handle large feature spaces effectively. In this project, LightGBM was selected as the final model because it consistently achieved the highest F1-score among the tested algorithms.
+
 ---
 
 # Project Structure
